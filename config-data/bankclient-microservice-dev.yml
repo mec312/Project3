@@ -32,7 +32,10 @@ eureka:
     service-url:
       defaultZone: http://localhost:8082/eureka
 
-
+apiclient:
+  uri: http://localhost:8092
+microservice-accounts:
+  uri: /api/accounts/findByClientId
 
 resilience4j:
   circuitbreaker.:

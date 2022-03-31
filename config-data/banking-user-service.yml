@@ -3,11 +3,10 @@ server:
 
 spring:
   application:
-    name: bankclient-microservice
-  data:
-    mongodb:
-      #uri: mongodb+srv://spiritbear:Cuymagic321@mycluster.s22zz.mongodb.net/clients?retryWrites=true&w=majority
-      uri: mongodb+srv://developer:developer@cluster0.aa6qr.mongodb.net/clients?retryWrites=true&w=majority
+    name: banking-user-service
+    data:
+        mongodb:
+            uri: mongodb+srv://xvris:xvris@cluster0.bpun4.mongodb.net/apibanca
 
 management:
   endpoints:

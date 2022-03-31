@@ -29,7 +29,7 @@ info:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8082/eureka
+      defaultZone: http://localhost:8082/eureka/
 
 #apiclient:
 #  uri: http://localhost:8092

@@ -19,9 +19,9 @@ management:
       enabled: true
 info:
   application:
-    name : bankclient-microservice
+    name : banking-user-service
     Description : This is a Microservice to manage clients
-    artifact : bank-clients
+    artifact : banking-user-service
     version : '@project.version@'
     spring-cloud-version: '@spring-cloud.version@'
     spring-boot-version: 2.6.4
@@ -31,10 +31,10 @@ eureka:
     service-url:
       defaultZone: http://localhost:8082/eureka
 
-apiclient:
-  uri: http://localhost:8092
-microservice-accounts:
-  uri: /api/accounts/findByClientId
+#apiclient:
+#  uri: http://localhost:8092
+#microservice-accounts:
+#  uri: /api/accounts/findByClientId
 
 resilience4j:
   circuitbreaker.:
